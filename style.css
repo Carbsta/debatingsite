@@ -9,16 +9,17 @@ html, body {
 
 .main{
 	position: relative;
-    left: -50px;
+    	left: -50px;
 }
 
 .sidebar{
 	position: fixed;
 	top: 100px;
 	bottom: 15px;
-    right: 15px;
-    width: 300px;
-    background: #568EB2;
+    	right: 15px;
+    	width: 300px;
+    	background: #568EB2;
+	box-shadow: 5px 5px 5px #888888;
 }
 
 h1{
@@ -36,12 +37,12 @@ h1{
 
 li{
 	background: #568EB2;
-    border-bottom: 1px solid #970830;
-    padding: 0 0 500px;
-    margin-right: 200px;
-    font-size: 12px;
-    margin-bottom: 25px;
-    box-shadow: 5px 5px 5px #888888;
+    	border-bottom: 1px solid #970830;
+    	padding: 0 0 500px;
+    	margin-right: 200px;
+    	font-size: 12px;
+    	margin-bottom: 25px;
+    	box-shadow: 5px 5px 5px #888888;
 }
 
 li.intro{
