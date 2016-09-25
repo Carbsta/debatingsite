@@ -3,23 +3,29 @@ html, body {
 }
 
 .header {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	right: 0px;
 	background: #053161;
 	border-bottom: 5px solid #970830;
+	z-index: 1;
 }
 
 .main{
 	position: relative;
-    	left: -50px;
+	top: 100px;
+    left: -50px;
 }
 
 .sidebar{
 	position: fixed;
 	top: 100px;
 	bottom: 15px;
-    	right: 15px;
-    	width: 300px;
-    	background: #568EB2;
-	box-shadow: 5px 5px 5px #888888;
+    right: 15px;
+    width: 300px;
+    background: #568EB2;
+    box-shadow: 5px 5px 5px #888888;
 }
 
 h1{
@@ -37,12 +43,12 @@ h1{
 
 li{
 	background: #568EB2;
-    	border-bottom: 1px solid #970830;
-    	padding: 0 0 500px;
-    	margin-right: 200px;
-    	font-size: 12px;
-    	margin-bottom: 25px;
-    	box-shadow: 5px 5px 5px #888888;
+    border-bottom: 1px solid #970830;
+    padding: 0 0 500px;
+    margin-right: 200px;
+    font-size: 12px;
+    margin-bottom: 25px;
+    box-shadow: 5px 5px 5px #888888;
 }
 
 li.intro{
