@@ -44,8 +44,8 @@ h1{
 
 li{
 	background: #2E3136;
+	padding: 5px 5px 5px;
     border-bottom: 1px solid #970830;
-    padding: 0px 0px 500px;
     margin-right: 200px;
     font-size: 12px;
     margin-bottom: 25px;
@@ -55,5 +55,4 @@ li{
 
 li.intro{
 	margin-top: 25px;
-	padding: 5px 5px 5px;
 }
