@@ -24,8 +24,9 @@ html, body {
 	bottom: 15px;
     right: 15px;
     width: 300px;
-    background: #568EB2;
+    background: #1E2124;
     box-shadow: 5px 5px 5px #888888;
+    color: #ffffff;
 }
 
 h1{
@@ -42,13 +43,14 @@ h1{
 }
 
 li{
-	background: #568EB2;
+	background: #2E3136;
     border-bottom: 1px solid #970830;
     padding: 0 0 500px;
     margin-right: 200px;
     font-size: 12px;
     margin-bottom: 25px;
     box-shadow: 5px 5px 5px #888888;
+    color: #ffffff;
 }
 
 li.intro{
