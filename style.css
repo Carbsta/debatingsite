@@ -68,4 +68,10 @@ li.intro{
     li{
     	margin-right: 0px;
     }
+    p{
+    	font-size: 16px;
+    }
+    h4{
+    	font-size: 22px;
+    }
 }
